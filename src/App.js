@@ -1,10 +1,15 @@
 
+import Navbar from './components/Navbar';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import PersonalBanner from './components/PersonalBanner';
 
 function App() {
   return (
-    <h1>Howdy!!!</h1>
+    <>
+      <Navbar />
+      <PersonalBanner />
+    </>
   );
 }
 
