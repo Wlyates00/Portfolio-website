@@ -1,0 +1,82 @@
+.project-container {
+    height: fit-content; /* Adjust height as needed */
+    background-color: #2c2c2cff;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the heading horizontally */
+    padding: 1rem; /* Padding for container */
+    padding-bottom: 5rem;
+}
+
+.project-heading{
+    font-size: 2.5em;
+    text-align: center;
+    color: white;
+    font-family: oswald;
+    font-weight: 900;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    margin: 0;
+}
+
+.proj-img{
+    height: 12rem;
+    width: 100%;
+    max-width: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: center;
+}
+
+.proj-row{
+    justify-content: center;
+}
+
+.proj-title{
+    padding-top: .5rem;
+    color: white;
+    font-family: Corbel;
+    font-weight: 400;
+}
+.proj-desc{
+    color: white;
+}
+
+.tool-icons{
+    color: white;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    font-size: 2em;
+}
+
+.line-break{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    border: 1px solid white;
+    opacity: .75;
+    width: 95%;
+}
+
+@media (min-width: 1776px) {
+    .proj-img {
+        height: 18rem; /* Increase height for larger screens */
+        max-width: 600px; /* Increase maximum width for larger screens */
+    }
+
+    
+    .proj-title{
+        font-size: 3em;
+    }
+    .proj-desc{
+        font-size: 1.17em;
+    }
+
+    .tool-icons{
+        font-size: 3em;
+    }
+    .line-break{
+        width: 110%;
+    }
+}

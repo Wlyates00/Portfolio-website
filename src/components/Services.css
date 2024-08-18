@@ -8,6 +8,8 @@
     text-align: center;
     color: white;
     padding-top: 1.5rem;
+    font-family: oswald;
+    padding-bottom: .5rem;
 }
 
 .col-sm-6{
@@ -48,8 +50,11 @@
     text-align: center;
 }
 
-.services-banner{
+.services-banner {
     height: 36rem;
+    position: relative;
+    box-shadow: 0 0 7px black;
+    z-index: 1;
 }
 
 @media (max-width: 576px) {
@@ -73,6 +78,6 @@
     }
 
     .services-banner{
-        height: 72rem;
+        height: 67rem;
     }
 }

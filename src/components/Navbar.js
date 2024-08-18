@@ -6,7 +6,7 @@ import { faBars } from '@fortawesome/fontawesome-free-solid'
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <nav id="home" className="navbar navbar-expand-lg navbar-light">
       <div className="container-fluid">
         <a className="navbar-brand" href="#"><img className="logo" src={logo}></img></a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,19 +15,19 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">Home</a>
+              <a className="nav-link" href="#home">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">About</a>
+              <a className="nav-link" href="#about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Services</a>
+              <a className="nav-link" href="#services">Services</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Projects</a>
+              <a className="nav-link" href="#projects">Projects</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Contact Me</a>
+              <a className="nav-link" href="#contact">Contact Me</a>
             </li>
           </ul>
         </div>

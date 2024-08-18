@@ -12,9 +12,10 @@
     color: white;
     padding-top: 1.5rem;
     text-align: center;
-    font-family: corbel;
+    font-family: oswald;
     font-weight: 900;
     text-shadow: 1px 3px rgb(32, 32, 32);
+    padding-bottom: 1rem;
 }
 
 .icon-grad{
