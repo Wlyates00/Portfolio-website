@@ -1,0 +1,47 @@
+:root {
+    --primary-color: #580a7aff;
+    --secondary-color: #684a75ff;
+    --bg-color: #2c2c2cff;
+}
+
+.about{
+    background-color: #2c2c2cff;
+}
+
+.heading{
+    color: white;
+    padding-top: 1.5rem;
+    text-align: center;
+    font-family: corbel;
+    font-weight: 900;
+    text-shadow: 1px 3px rgb(32, 32, 32);
+}
+
+.icon-grad{
+    padding-right: 3rem;
+    inline-size: 150px;
+}
+
+.text-text{
+    color: white;
+    font-weight: 100;
+    text-align: center;
+}
+
+.row-about{
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+}
+
+.desc{
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .icon-grad{
+        justify-content: center !important;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+        padding-right: 0;
+    }
+}

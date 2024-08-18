@@ -1,0 +1,78 @@
+.services-icon{
+    background-size: 12rem;
+    background-repeat: no-repeat;
+    height: 12rem;
+}
+
+.services-header{
+    text-align: center;
+    color: white;
+    padding-top: 1.5rem;
+}
+
+.col-sm-6{
+    display: flex;
+    padding-top: 1rem;
+}
+.services-icon {
+    width: 150px; /* Set a fixed width or adjust as needed */
+    height: 150px; /* Set a fixed height or adjust as needed */
+    background-size: contain; /* Adjust the background size */
+}
+
+.services-text-col-game{
+    display: flex;
+    flex-direction: column;
+    align-items: end; /* place items horizontally */
+    padding-right: 5rem;
+}
+
+.services-text-col-web{
+    display: flex;
+    flex-direction: column;
+    align-items: start; /* position items horizontally */
+    padding-left: 5rem;
+
+}
+
+
+.game-text{
+    color: white;
+    inline-size: 150px;
+    text-align: center;
+}
+
+.web-text{
+    color: white;
+    inline-size: 150px;
+    text-align: center;
+}
+
+.services-banner{
+    height: 36rem;
+}
+
+@media (max-width: 576px) {
+    .col-sm-6{
+        justify-content: center;
+    }
+
+    .services-text-col-game{
+        padding-top: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* position items horizontally */
+        padding-right: 0;
+    }
+    
+    .services-text-col-web{
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* position items horizontally */
+        padding-left: 0;
+    }
+
+    .services-banner{
+        height: 72rem;
+    }
+}

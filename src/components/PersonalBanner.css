@@ -7,8 +7,10 @@
 .personal-banner{
     height: 67.5rem;
     max-height: 50rem !important;
+    box-shadow: 0px 0px 10px black; /* Ensure the box-shadow is here */
+    position: relative;
+    z-index: 0;
 }
-
 
 .banner-text{
     font-family: Corbel;
@@ -23,12 +25,12 @@
     margin-left: calc(12.5% + 2vw);
 }
 
-.row{
+.banner{
     height: 10rem;
 }
 
 @media (min-width: 1200px) {
-    .row{
+    .banner{
         height: 50rem !important;
     }
 }
