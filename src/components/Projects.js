@@ -12,7 +12,7 @@ const Projects = () => {
                 <a href='https://apps.apple.com/us/app/faces/id6476069171' className='col-lg-6 proj-img' style={{backgroundImage: `url(${FacesScreenShot})`, cursor: 'pointer'}}></a>
                 <div className='col-lg-6'>
                     <a href='https://apps.apple.com/us/app/faces/id6476069171' className='proj-title'>Faces+ (Mobile Game)</a>
-                    <p className='proj-desc'>Faces+ was an arcade style platformer that gained popularity and gain over 20,000+ players. It was and incredible simple and beautiful game. This project was great for the public audience as it was easy to produce content for the popular demands</p>
+                    <p className='proj-desc'>Faces+ is an arcade style platformer that gained popularity and gain over 20,000 players. It was and incredible simple and beautiful game. This project was great for the public audience as it was easy to produce content for the popular demands</p>
                     <div className='proj-tools'>
                         <div className='tools'>
                             <i class="devicon-unity-plain tool-icons"></i>
