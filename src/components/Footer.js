@@ -53,7 +53,7 @@ const Footer = () => {
             <button className='btn btn-light' type='submit'>Send</button>
         </form>
         <div className="container text-center">
-            <small>Copyright &copy; Layton Yates</small>
+            <small>Copyright &copy; Layton Yates 2024</small>
         </div>
     </div>
   )

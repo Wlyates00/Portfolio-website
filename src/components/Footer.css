@@ -19,7 +19,7 @@
 }
 
 .field{
-    width: 30rem;
+    width: 32rem;
     height: 40px;
     background: transparent;
     border-color: white;
@@ -28,7 +28,7 @@
 }
 
 .field::placeholder{
-    color: grey;
+    color: darkgray;
 }
 
 .input-box {
@@ -56,9 +56,9 @@
     outline: none !important;
 }
 
-@media (max-width: 776px) {
+@media (max-width: 556px) {
     .field{
-        width: 12.5rem;
+        width: 14rem;
     }
 }
 

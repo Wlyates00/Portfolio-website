@@ -17,6 +17,7 @@
     padding-top: 1.5rem;
     padding-bottom: 2rem;
     margin: 0;
+    text-shadow: 3px 3px rgb(32, 32, 32);
 }
 
 .proj-img{
@@ -34,11 +35,18 @@
 }
 
 .proj-title{
+    font-size: 2.17em;
     padding-top: .5rem;
     color: white;
     font-family: Corbel;
     font-weight: 400;
+    cursor: pointer;
+    text-decoration: none;
 }
+.proj-title:hover{
+    color: #684a75ff;
+}
+
 .proj-desc{
     color: white;
 }
