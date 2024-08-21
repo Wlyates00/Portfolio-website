@@ -8,7 +8,7 @@ const Services = () => {
     <div id="services" className='services-banner' style={{ backgroundColor: '#684a75ff', backgroundSize: 'cover'}}>
       <div className='container h-50'>
         <h1 className='services-header'>MY SERVICES</h1>
-        <div className='row h-50 d-flex justify-content-center align-items-start'>
+        <div className='row h-50 d-flex justify-content-center service-row'>
           <div className='col-sm-6 services-text-col-game'>
             <div className='services-icon controller' style={{ backgroundImage: `url(${controller})`}}></div>
             <p className='game-text'>Taking on game development has been one of my most fulfilling achievements. The journey of turning my own ideas into incredible experiences that bring joy and entertainment to people all over the world. In this area I am driven by my own passion to create fun and immersive games that connects with the player. I jump at the opportunity to innovate, always delivering content that resonates with and excites players.</p>

@@ -48,6 +48,10 @@ a.nav-link:focus{
     color: white;
 }
 
+.nav-link h1{
+    font-size: 1.35em;
+}
+
 nav ul li{
     font-family: Corbel;
     font-size: 1.35rem;
