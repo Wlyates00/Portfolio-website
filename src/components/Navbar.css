@@ -1,84 +1,88 @@
+a {
+  font-family: "Corbel", Arial, Helvetica, sans-serif;
+}
+
 :root {
-    --primary-color: #580a7aff;
-    --secondary-color: #684a75ff;
-    --bg-color: #2c2c2cff;
+  --primary-color: #580a7aff;
+  --secondary-color: #684a75ff;
+  --bg-color: #2c2c2cff;
 }
 
 /**** NAV BAR COLORING ****/
-.navbar{
-    background-color: var(--secondary-color);
-    box-shadow: 0px 0px 10px black;
-    z-index: 1;
+.navbar {
+  background-color: var(--secondary-color);
+  box-shadow: 0px 0px 10px black;
+  z-index: 1;
 }
 
-.navbar-brand{
-    color: white;
+.navbar-brand {
+  color: white;
 }
 
-.bars{
-    color: white;
-    border-color: white;
+.bars {
+  color: white;
+  border-color: white;
 }
 /**** NAV BAR LOGO ***/
 
-.logo{
-    width: 13rem;
-    height: auto;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-    padding-left: .5rem;
+.logo {
+  width: 10rem;
+  height: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
 }
 
 /**** NAVBAR LINKS ****/
 
-a.nav-link{
-    color: white;
-    font-weight: 500 !important;
-    letter-spacing: .04rem;
-    text-decoration: none;
+a.nav-link {
+  color: white;
+  font-weight: 500 !important;
+  letter-spacing: 0.04rem;
+  text-decoration: none;
 }
 
-a.nav-link:visited{
-    color: white;
+a.nav-link:visited {
+  color: white;
 }
-a.nav-link{
-    color: white;
+a.nav-link {
+  color: white;
 }
-a.nav-link:focus{
-    color: white;
-}
-
-.nav-link h1{
-    font-size: 1.35em;
+a.nav-link:focus {
+  color: white;
 }
 
-nav ul li{
-    font-family: Corbel;
-    font-size: 1.35rem;
+.nav-link h1 {
+  font-size: 1.35em;
+}
+
+nav ul li {
+  font-family: Corbel;
+  font-size: 1.35rem;
 }
 
 /**** Styling links themselves ****/
 
 .navbar-nav > li > a {
-    margin-right: .75rem;
-    margin-left: .75rem;
-    border-top: .1875rem solid var(--secondary-color)
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  border-top: 0.1875rem solid var(--secondary-color);
 }
 
 /**** Stop line above the nav links on mobile devices ****/
-@media (min-width: 512px){
-    .navbar-nav > li > a {
-        margin-right: 0;
-        margin-left: 0;
-    }
+@media (min-width: 512px) {
+  .navbar-nav > li > a {
+    margin-right: 0;
+    margin-left: 0;
+  }
 }
-@media (min-width: 992px){
-    .navbar-nav > li > a {
-        margin-right: .75rem;
-        margin-left: .75rem;
-    }
+@media (min-width: 992px) {
+  .navbar-nav > li > a {
+    margin-right: 0.75rem;
+    margin-left: 0.75rem;
+  }
 
-    .navbar-nav > li > a:hover{
-        border-top: .1875rem solid #2c2c2cff;
-    }
+  .navbar-nav > li > a:hover {
+    border-top: 0.1875rem solid #2c2c2cff;
+  }
 }
